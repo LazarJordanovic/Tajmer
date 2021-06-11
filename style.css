@@ -1,0 +1,47 @@
+body {
+    background-image: url(img/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+section {
+    width: 350px;
+    height: 250px;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 12px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
+section input[type="button"]{
+    align-items: center;
+     border-radius: 12px;
+     background-color: black;
+     height: 60px;
+     width: 100px;
+     outline: none;
+     color: white;
+     margin-top: 40px;
+}
+section input[type="button"]:hover {
+    background-color: saddlebrown;
+    cursor: pointer;
+}
+section input[type="text"]{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: gray;
+    border-radius: 20px;
+    height: 30px;
+}

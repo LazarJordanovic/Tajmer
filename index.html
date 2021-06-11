@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tajmer</title>
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body onload="Reset()" onunload="Stop()">
+    <section>
+    <center><form name="tajmer">
+        <table>
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="text" name="vreme" size="15">
+                </td>
+            </tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr>
+                <td>
+                    <input type="button" name="start" value="Start" onclick="Start()">
+                </td>
+                <td>
+                    <input type="button" name="stop" value="Stop" onclick="Stop()">
+                </td>
+                <td>
+                    <input type="button" name="reset" value="Reset" onclick="Reset()">
+                </td>
+            </tr>
+        </table>
+    </form></center>
+</section>
+
+    <script src="main.js"></script>
+</body>
+</html>
